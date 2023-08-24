@@ -1,0 +1,15 @@
+app:
+  name: Ashok-poi-map-app
+  namespace: Ashok
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/Ashok-frontend
+  org: rhdh-atl
+  name: Ashok-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: Ashok/poi-map-app
+  tag: latest
